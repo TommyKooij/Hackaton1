@@ -4,6 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QR">
+    tools:context=".Cursussen">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/dark_orange"
+        android:text="Terug"
+        android:textSize="16dp"
+        android:onClick="startMainActivity"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/title" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="De Kast"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tekst"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Hou tegen scherm \n aan"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:background="@color/black_faded"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
 </androidx.constraintlayout.widget.ConstraintLayout>

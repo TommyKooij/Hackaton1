@@ -29,4 +29,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent (this, PersonalCoach.class);
         startActivity(intent);
     }
+
+    public void startFifthActivity(View view){
+        Intent intent = new Intent (this, QR.class);
+        startActivity(intent);
+    }
 }

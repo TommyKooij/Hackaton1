@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Hackaton1</string>
+    <string name="titel">De Kast</string>
+    <string name="cursussen">Cursussen</string>
+    <string name="abonnementen">Abonnementen</string>
+    <string name="pc">Personal Coach</string>
+    <string name="qr">QR-code</string>
+    <string name="terug">Terug</string>
+
+    <string name="yoga">Yoga</string>
+    <string name="pilates">Pilates</string>
+    <string name="paaldansen">Paaldansen</string>
+
+    <string name="app_name"></string>
+    <string name="qr_code">qr_code</string>
+    <string name="generate_qr_code">Genereer QR Code</string>
 </resources>

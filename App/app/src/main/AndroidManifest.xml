@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hackaton1">
         <activity
+            android:name=".AbonnementAanschaffen"
+            android:exported="false" />
+        <activity
             android:name=".QR"
             android:exported="false" />
         <activity

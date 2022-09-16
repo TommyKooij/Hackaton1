@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Cursussen">
+    tools:context=".AbonnementAanschaffen">
 
     <ImageView
         android:id="@+id/imageView"
@@ -25,9 +24,10 @@
         android:backgroundTint="@color/dark_orange"
         android:text="@string/terug"
         android:textSize="16dp"
-        android:onClick="startMainActivity"
+        android:onClick="startAbonnementenActivity"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/title" />
+
 
     <TextView
         android:id="@+id/title"
@@ -47,110 +47,71 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/yoga"
+        android:id="@+id/tekst1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:layout_marginStart="20dp"
         android:background="@color/orange"
         android:padding="8dp"
-        android:text="@string/yoga"
+        android:text="Aan te schaffen cursus"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/title"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/input1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/yoga"
-        android:background="@color/black_faded"
-        android:padding="8dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Lorem ipsum dolor sit amet,
-consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut
-aliquip ex ea commodo consequat."
-        android:textColor="@color/white"
-        android:textSize="16dp" />
-
-    <TextView
-        android:id="@+id/pilates"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:layout_marginStart="20dp"
-        android:background="@color/orange"
+        android:layout_marginEnd="20dp"
+        android:background="@color/black_faded"
         android:padding="8dp"
-        android:text="@string/pilates"
-        android:textAlignment="center"
+        android:text="..."
         android:textAllCaps="true"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/text1"
+        app:layout_constraintTop_toBottomOf="@id/tekst1"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
     <TextView
-        android:id="@+id/text2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/pilates"
-        android:background="@color/black_faded"
-        android:padding="8dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Lorem ipsum dolor sit amet,
-consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut
-aliquip ex ea commodo consequat."
-        android:textColor="@color/white"
-        android:textSize="16dp" />
-
-    <TextView
-        android:id="@+id/paaldansen"
+        android:id="@+id/tekst2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="50dp"
         android:layout_marginStart="20dp"
         android:background="@color/orange"
         android:padding="8dp"
-        android:text="@string/paaldansen"
+        android:text="Aan te schaffen abonnement"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/text2"
+        app:layout_constraintTop_toBottomOf="@id/input1"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
     <TextView
-        android:id="@+id/text3"
+        android:id="@+id/input2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/paaldansen"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:background="@color/black_faded"
         android:padding="8dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Lorem ipsum dolor sit amet,
-consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut
-aliquip ex ea commodo consequat."
+        android:text="..."
+        android:textAllCaps="true"
         android:textColor="@color/white"
-        android:textSize="16dp" />
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tekst2"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

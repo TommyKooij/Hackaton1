@@ -1,10 +1,13 @@
-package com.example.hackaton1;
+package com.example.hackaton1.secundary;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.hackaton1.Abonnementen;
+import com.example.hackaton1.R;
 
 public class AbonnementAanschaffen extends AppCompatActivity {
 

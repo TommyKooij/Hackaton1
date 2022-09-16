@@ -5,13 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
+
+import com.example.hackaton1.secundary.AbonnementAanschaffen;
 
 public class Abonnementen extends AppCompatActivity {
-
-    public EditText huidigeCursus;
-    public EditText huidigeAbonnement;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +21,7 @@ public class Abonnementen extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void startAbonnementAanschaffenActivity(View view){
+    public void startActivityTwo(View view){
         Intent intent = new Intent (this, AbonnementAanschaffen.class);
         startActivity(intent);
     }

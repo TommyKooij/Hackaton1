@@ -378,9 +378,10 @@
         android:text="Abonnement \n aanshaffen"
         android:textStyle="bold"
         android:textSize="16dp"
-        android:onClick="startAbonnementAanschaffenActivity"
+        android:onClick="startActivityTwo"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/huidigeAbonnement" />
+        app:layout_constraintTop_toBottomOf="@+id/huidigeAbonnement"
+        tools:ignore="OnClick" />
 
 
     <Button
